@@ -6,7 +6,7 @@
 
 
     const PROXIES = ["http://budget-v6.whiteproxies.com:27020"];
-    const prod = false;
+    const prod = true;
 
     // HTTP SERVER
     const server = http.createServer((req, res) => {
